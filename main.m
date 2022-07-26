@@ -89,7 +89,7 @@ end
 x_nw = x_nw(:,1:N);
 [x_hat_net,y_hat_net,KG] = KalmanNet(x_nw,y_nw,A,C);
 %%
-[P_vi,K_vi,G_vi] = value_iteration(A,N,B,Q(5),R,0.2);
+[P_vi,K_vi,G_vi] = value_iteration(A,N,B,Q(5),R);
 x_hat_vi = ones(4,1);
 for i = 1:N
     u_vi(j,i) = -K_vi*x_hat_vi(:,i);
