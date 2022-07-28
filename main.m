@@ -1,7 +1,7 @@
 clear all;clc
-g = 9.8;
+g = 9.8E-01;
 lp = 0.5;
-mp =0.1;
+mp = 0.1;
 mk = 1;
 mt = 1.1;
 a = g/(lp*(4.0/3 - mp/(mp+mk)));
