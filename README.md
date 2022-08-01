@@ -1,4 +1,5 @@
-# This Code was implemented in preprint paper "Linear Quadratic Gaussian using Kalman Network and Reinforcement Learning for Discrete-Time System"
+# Notes : 
+This Code was implemented in preprint paper "Linear Quadratic Gaussian using Kalman Network and Reinforcement Learning for Discrete-Time System" (https://www.researchgate.net/publication/362385858_Linear_Quadratic_Gaussian_using_Kalman_Network_and_Reinforcement_Learning_for_Discrete-Time_System)
 # Tutorial 
 1. Download all the files in one folder directory on your PC
 2. Open your MATLAB apps (min. R2021a)
